@@ -37,7 +37,7 @@ function handleRequest(_request: Http.IncomingMessage, _response: Http.ServerRes
 
     _response.setHeader("Access-Control-Allow-Origin", "*");
     _response.setHeader("content-type", "text/html; charset=utf-8");
-    _response.write("Sie haben " + query["color"] + " gewählt." + "<br>");
+    _response.write("Die Farbe " + query["color"] + " wurde gewï¿½hlt." + "<br>");
     _response.write("Sie haben " + query["text"] + " eingegeben.");
     _response.end();
 }
