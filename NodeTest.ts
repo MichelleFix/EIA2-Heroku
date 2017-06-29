@@ -1,7 +1,8 @@
-console.log("Server starting");
 
 import Http = require("http");
-import Url = require("url");
+import Url = require("url");  
+
+console.log("Server starting");
 
 interface AssocStringString {
     [key: string]: string;
